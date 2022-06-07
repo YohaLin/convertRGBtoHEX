@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700&family=Roboto&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <h1>Convert RGB to HEX</h1>
+  <div class="container">
+    <!--  RGB-section  -->
+    <div class="RGB-section">
+      <h1>RGB</h1>
+      <div class="RGB">
+        <span class="color">R:</span>
+        <input class="inputR" type="text" placeholder="Key in 0-255">
+        <div class="RGB-color-squareR"></div>
+      </div>
+      <div class="RGB">
+        <span class="color">G:</span>
+        <input class="inputG" type="text" placeholder="Key in 0-255">
+        <div class="RGB-color-squareG"></div>
+      </div>
+      <div class="RGB">
+        <span class="color">B:</span>
+        <input class="inputB" type="text" placeholder="Key in 0-255">
+        <div class="RGB-color-squareB"></div>
+      </div>
+      <button id="convert-btn">
+        <p>Convert</p>
+      </button>
+    </div>
+    <!--  HEX-section  -->
+    <div class="HEX-section">
+      <h1>HEX</h1>
+      <div class="HEX-text">
+      </div>
+      <div class="HEX-color-square"></div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

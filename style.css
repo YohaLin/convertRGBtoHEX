@@ -1,0 +1,82 @@
+*,
+body {
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.RGB-section {
+  /*   border: 3px #000000 solid; */
+  width: 400px;
+  height: 300px;
+}
+
+.HEX-section {
+  /*   border: 3px #000000 solid; */
+  width: 250px;
+  height: 300px;
+}
+
+/* RGB */
+.RGB {
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.color {
+  font-size: 20px;
+}
+
+.inputR,
+.inputG,
+.inputB {
+  border-radius: 5px;
+  border: 2px solid #d9dde0;
+  margin: 0 0 0 5px;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.RGB-color-squareR,
+.RGB-color-squareG,
+.RGB-color-squareB {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #d9dde0;
+}
+
+#convert-btn {
+  padding: 0px 18px;
+  color: white;
+  font-size: 15px;
+  background-color: #3f7eee;
+  border: none;
+  border-radius: 10px;
+}
+
+/* HEX */
+.HEX-text {
+  width: 200px;
+  height: 10px;
+  border: 2px solid #d9dde0;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.HEX-color-square {
+  margin: 15px 0;
+  width: 80px;
+  height: 80px;
+  border: 2px solid #d9dde0;
+}
