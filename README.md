@@ -13,3 +13,6 @@
 2.HEX區塊(右方)： 按下Convert鍵後，會自動生成HEX碼
 ```
 ![image](https://github.com/YohaLin/convertRGBtoHEX/blob/main/hex.gif)
+
+## 完成日期
+2022-04-27
